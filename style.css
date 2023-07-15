@@ -110,6 +110,12 @@ nav ul li a:hover::after {
     margin-bottom: 20px;
     font-size: 30px;
   }
+
+  #introtext2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
   
   #col {
     justify-content: center;
@@ -161,7 +167,7 @@ nav ul li a:hover::after {
   }
   
 .project-image img {
-  width: 100%;
+  
   max-width: 500px; /* Increase the max-width value */
   height: auto;
   border-radius: 5px;
@@ -191,21 +197,48 @@ nav ul li a:hover::after {
   align-items: center;
 }
 
+
+
+.click-zoom input[type=checkbox] {
+    display: none
+  }
+  
+  .click-zoom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .click-zoom img {
+    display: block;
+    margin: 2% auto;
+    height: 50%;
+    width: 90%;
+  }
+  
+  .click-zoom input[type=checkbox]:checked~img {
+    transform: scale(2);
+    cursor: zoom-out
+  }
+
+  
+
+/*
 .project-image {
-  flex: 0 0 70%; /* Takes up 50% of the available space */
+  flex: 0 0 70%; /* Takes up 50% of the available space 
 }
 
 .project-video {
-  flex: 0 0 70%; /* Takes up 50% of the available space */
-  margin-left: 20px; /* Adds spacing between image and video */
+  flex: 0 0 100%; /* Takes up 50% of the available space 
+  margin-left: 20px; /* Adds spacing between image and video 
 }
 
 .project-video video {
   width: 100%;
   height: auto;
-  max-width: 300px; /* Reduces the width to half the current size */
+  max-width: 300px; /* Reduces the width to half the current size 
   max-height: 200px; /* Reduces the height to half the current size */
-}
+
 
 
   
