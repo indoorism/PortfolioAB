@@ -1,56 +1,69 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Portfolio - CoreyB</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
-        <link rel="stylesheet" href="style.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Geologica&display=swap" rel="stylesheet" />
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-        <script src="js/index.js"></script>
-    </head>
-    <body>
-        <div id="header">
-<div class="container1">
-  <nav>
-    <img src="images/Untitled_Artwork_trans.png" class="logo">
-    <ul>
-      <li style="float:right"><a class="active" href="#about">About</a></li>
-      <li style="float:right"><a class="active" href="#contact">Contact</a></li>
-      <li style="float:right"><a class="active" a> <a href="https://drive.google.com/file/d/1JzidggFlKSDAyXYFuelm3ddxTAM7xm8P/view?usp=sharing">Resume</a></li>
-      <li style="float:right"><a class="active" a> <a href="https://www.linkedin.com/in/corey-bradshaw1/">Linkedin</a></li>
-    </ul>
-  </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - CoreyB</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Geologica&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container1">
+      <nav>
+        <img src="images/Untitled_Artwork_trans.png" class="logo" />
+        <ul>
+          <li style="float:right"><a class="active" href="#about">About</a></li>
+          <li style="float:right"><a class="active" href="#contact">Contact</a></li>
+          <li style="float:right"><a class="active" a><a href="https://drive.google.com/file/d/1JzidggFlKSDAyXYFuelm3ddxTAM7xm8P/view?usp=sharing">Resume</a></li>
+          <li style="float:right"><a class="active" a><a href="https://www.linkedin.com/in/corey-bradshaw1/">Linkedin</a></li>
+        </ul>
+      </nav>
 
-  <div id="wrapper">
-    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 px-5 py-5">
-            <div class="col">
-                <div class="features-card position-relative overflow-hidden">
-                    <div class="d-flex flex-column h-100 p-4">
-                        <div class="features-content align-items-center">
-                            <div id="introtext align-items-right">
-                                <p>UI/UX Designer</p>
-                                <h1>from Portland,OR</h1>
-                                <p>hdn.corey.bradshaw@gmail.com</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
+      <div id="wrapper">
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 px-2 py-2">
+          <div class="col">
+            <div class="features-card position-relative overflow-hidden">
+              <div class="d-flex flex-column h-100 p-4">
+                <div class="features-content align-items-center">
+                  <div id="introtext align-items-right">
+                    <h1>UI/UX Designer</h1>
+                    <h2>from Portland,OR</h2>
+                    <p>hdn.corey.bradshaw@gmail.com</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-      </section>
-    
-    </body> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="projects">
+    <div class="project">
+      <h3>Project Title</h3>
+      <p class="project-description">Project description goes here.</p>
+      <div class="project-content">
+        <div class="project-image">
+          <img src="images/cardfs.png" alt="Project Screenshot">
+        </div>
+        <div class="project-video">
+          <video src="videos/screen-20230119-171812.mp4" controls></video>
+        </div>
+      </div>
+      <div class="project-details">
+        <a href="project-details.html" class="btn">View Details</a>
+      </div>
+    </div>
+    <!-- Add more project divs as needed -->
+  </section>
+  
+</body>
 </html>
-
-
